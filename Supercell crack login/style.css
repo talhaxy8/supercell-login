@@ -1,0 +1,122 @@
+/* Genel stil ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Google Fonts */
+}
+
+/* Sayfa arka planı ve merkezi hizalama */
+body {
+    background: linear-gradient(to bottom, #1E4A8E, #2A6BC8); /* Koyu mavi geçiş */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+/* Konfeti efekti alanı */
+.confetti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+/* Giriş alanı */
+.login-container {
+    background-color: #FFFFFF; /* Beyaz arka plan */
+    width: 450px;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+}
+
+/* Başlık */
+.header-text h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Logo stil ayarları */
+.supercell-logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Açıklama metni */
+.instruction {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Başlık */
+h1 {
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Form alanı */
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Oval kenarlar */
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 8px;
+}
+
+.input-container input:focus {
+    outline: none;
+    border-color: #56A6FF;
+    background-color: #e7f2ff;
+}
+
+/* Submit butonu */
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0077cc;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px; /* Oval buton */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #005fa3; /* Hover rengini koyulaştır */
+}
+
+/* Ekstra bağlantılar */
+.extra-options {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.extra-options a {
+    color: #0077cc;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+
+.extra-options a:hover {
+    text-decoration: underline;
+}
